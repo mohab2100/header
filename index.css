@@ -440,6 +440,12 @@ header {
     align-items: center;
     gap: 2rem;
     padding-left: 3rem;
+    @media screen and (max-width: 1024px) {
+      padding-bottom: 4rem;
+    }
+    @media screen and (max-width: 768px) {
+      padding-bottom: 4rem;
+    }
     .mine {
       width: 40px;
       height: 40px;
@@ -471,6 +477,9 @@ header {
       font-weight: 500;
       line-height: 91.2px;
       color: white;
+      @media screen and (max-width: 768px) {
+        overflow-y: hidden;
+      }
       @media screen and (max-width: 767px) {
         font-size: 55px;
       }
@@ -491,6 +500,12 @@ header {
         background-color: rgb(30 34 41);
         color: #99e39e;
       }
+      @media screen and (max-width: 1024px) {
+        width: 100%;
+      }
+      @media screen and (max-width: 768px) {
+        width: 95%;
+      }
     }
 
     .app {
@@ -498,6 +513,12 @@ header {
       max-width: 100%;
       height: 68.3097px;
       transition: 1s;
+      @media screen and (max-width: 1024px) {
+        width: 131.332px;
+      }
+      @media screen and (max-width: 768px) {
+        width: 117.332px;
+      }
       @media screen and (max-width: 767px) {
         width: 131.332px;
       }
@@ -510,6 +531,12 @@ header {
       max-width: 100%;
       height: 68.3097px;
       transition: 1s;
+      @media screen and (max-width: 1024px) {
+        width: 131.332px;
+      }
+      @media screen and (max-width: 768px) {
+        width: 117.332px;
+      }
       @media screen and (max-width: 767px) {
         width: 131.332px;
       }
@@ -582,8 +609,17 @@ header {
       background-color: rgb(40 44 54);
       width: 267.997px;
       height: 146.676px;
+      display: block;
       padding: 24px 20px 24px 20px;
       border-radius: 8px;
+      @media screen and (max-width: 1024px) {
+        overflow-y: hidden;
+        display: none;
+      }
+      @media screen and (max-width: 768px) {
+        overflow-y: hidden;
+        display: none;
+      }
       img {
         width: 45.9943px;
         height: 45.9943px;
@@ -623,6 +659,9 @@ header {
       height: 146.676px;
       padding: 24px 20px 24px 20px;
       border-radius: 8px;
+      @media screen and (max-width: 768px) {
+        overflow-y: hidden;
+      }
       @media screen and (max-width: 767px) {
         display: none;
       }
@@ -666,6 +705,9 @@ header {
       display: block;
       padding: 24px 20px 24px 20px;
       border-radius: 8px;
+      @media screen and (max-width: 768px) {
+        overflow-y: hidden;
+      }
       @media screen and (max-width: 767px) {
         display: none;
       }
@@ -709,6 +751,14 @@ header {
       display: block;
       padding: 24px 20px 24px 20px;
       border-radius: 8px;
+      @media screen and (max-width: 1024px) {
+        overflow-y: hidden;
+        display: none;
+      }
+      @media screen and (max-width: 768px) {
+        overflow-y: hidden;
+        display: none;
+      }
       @media screen and (max-width: 767px) {
         display: none;
       }
@@ -760,6 +810,9 @@ header {
       padding: 24px 20px 24px 20px;
       border-radius: 8px;
       display: block;
+      @media screen and (max-width: 768px) {
+        overflow-y: hidden;
+      }
       @media screen and (max-width: 767px) {
         display: none;
       }
@@ -802,6 +855,15 @@ header {
       height: 146.676px;
       padding: 24px 20px 24px 20px;
       border-radius: 8px;
+      display: block;
+      @media screen and (max-width: 1024px) {
+        overflow-y: hidden;
+        display: none;
+      }
+      @media screen and (max-width: 768px) {
+        overflow-y: hidden;
+        display: noen;
+      }
       img {
         width: 45.9943px;
         max-width: 100%;
@@ -842,6 +904,14 @@ header {
       padding: 24px 20px 24px 20px;
       border-radius: 8px;
       display: block;
+      @media screen and (max-width: 1024px) {
+        overflow-y: hidden;
+        display: none;
+      }
+      @media screen and (max-width: 768px) {
+        overflow-y: hidden;
+        display: none;
+      }
       @media screen and (max-width: 767px) {
         display: none;
       }
@@ -886,6 +956,9 @@ header {
       padding: 24px 20px 24px 20px;
       border-radius: 8px;
       display: block;
+      @media screen and (max-width: 768px) {
+        overflow-y: hidden;
+      }
       @media screen and (max-width: 767px) {
         display: none;
       }
@@ -937,6 +1010,7 @@ header {
       padding: 24px 20px 24px 20px;
       border-radius: 8px;
       display: block;
+
       @media screen and (max-width: 767px) {
         display: none;
       }
@@ -980,6 +1054,9 @@ header {
       padding: 24px 20px 24px 20px;
       border-radius: 8px;
       display: block;
+      @media screen and (max-width: 768px) {
+        overflow-y: hidden;
+      }
       @media screen and (max-width: 767px) {
         display: none;
       }
@@ -1022,6 +1099,15 @@ header {
       height: 146.676px;
       padding: 24px 20px 24px 20px;
       border-radius: 8px;
+      display: block;
+      @media screen and (max-width: 1024px) {
+        overflow-y: hidden;
+        display: none;
+      }
+      @media screen and (max-width: 768px) {
+        overflow-y: hidden;
+        display: none;
+      }
       img {
         width: 45.9943px;
         max-width: 100%;
@@ -1062,6 +1148,17 @@ header {
       padding: 24px 20px 24px 20px;
       border-radius: 8px;
       display: block;
+      @media screen and (max-width: 1024px) {
+        overflow-y: hidden;
+        display: none;
+      }
+      @media screen and (max-width: 768px) {
+        overflow-y: hidden;
+        display: none;
+      }
+      @media screen and (max-width: 768px) {
+        overflow-y: hidden;
+      }
       @media screen and (max-width: 767px) {
         display: none;
       }
@@ -1113,6 +1210,14 @@ header {
       padding: 24px 20px 24px 20px;
       border-radius: 8px;
       display: block;
+      @media screen and (max-width: 1024px) {
+        overflow-y: hidden;
+        display: none;
+      }
+      @media screen and (max-width: 768px) {
+        overflow-y: hidden;
+        display: none;
+      }
       @media screen and (max-width: 767px) {
         display: none;
       }
@@ -1156,6 +1261,9 @@ header {
       padding: 24px 20px 24px 20px;
       border-radius: 8px;
       display: block;
+      @media screen and (max-width: 768px) {
+        overflow-y: hidden;
+      }
       @media screen and (max-width: 767px) {
         display: none;
       }
@@ -1199,6 +1307,9 @@ header {
       padding: 24px 20px 24px 20px;
       border-radius: 8px;
       display: block;
+      @media screen and (max-width: 768px) {
+        overflow-y: hidden;
+      }
       @media screen and (max-width: 767px) {
         display: none;
       }
@@ -1241,6 +1352,15 @@ header {
       height: 146.676px;
       padding: 24px 20px 24px 20px;
       border-radius: 8px;
+      display: block;
+      @media screen and (max-width: 1024px) {
+        overflow-y: hidden;
+        display: none;
+      }
+      @media screen and (max-width: 768px) {
+        overflow-y: hidden;
+        display: none;
+      }
       img {
         width: 45.9943px;
         max-width: 100%;
@@ -1289,6 +1409,9 @@ header {
       padding: 24px 20px 24px 20px;
       border-radius: 8px;
       display: block;
+      @media screen and (max-width: 768px) {
+        overflow-y: hidden;
+      }
       @media screen and (max-width: 767px) {
         display: none;
       }
@@ -1332,6 +1455,14 @@ header {
       padding: 24px 20px 24px 20px;
       border-radius: 8px;
       display: block;
+      @media screen and (max-width: 1024px) {
+        overflow-y: hidden;
+        display: none;
+      }
+      @media screen and (max-width: 768px) {
+        overflow-y: hidden;
+        display: none;
+      }
       @media screen and (max-width: 767px) {
         display: none;
       }
@@ -1374,6 +1505,15 @@ header {
       height: 146.676px;
       padding: 24px 20px 24px 20px;
       border-radius: 8px;
+      display: block;
+      @media screen and (max-width: 1024px) {
+        overflow-y: hidden;
+        display: none;
+      }
+      @media screen and (max-width: 768px) {
+        overflow-y: hidden;
+        display: none;
+      }
       img {
         width: 45.9943px;
         max-width: 100%;
@@ -1414,6 +1554,12 @@ header {
       padding: 24px 20px 24px 20px;
       border-radius: 8px;
       display: block;
+      @media screen and (max-width: 1024px) {
+        overflow-y: hidden;
+      }
+      @media screen and (max-width: 768px) {
+        overflow-y: hidden;
+      }
       @media screen and (max-width: 767px) {
         display: none;
       }
@@ -1614,6 +1760,9 @@ article {
   align-items: center;
   flex-direction: column;
   padding-bottom: 10rem;
+  @media screen and (max-width: 768px) {
+    padding-bottom: 0;
+  }
   p {
     font-size: 28px;
     line-height: 36px;
@@ -1649,6 +1798,9 @@ article {
   align-items: center;
   padding-left: 45rem;
   padding-bottom: 10rem;
+  @media screen and (max-width: 768px) {
+    padding-bottom: 0;
+  }
   @media screen and (max-width: 767px) {
     flex-direction: column;
     padding: 0;
@@ -1997,6 +2149,9 @@ article {
       line-height: 48px;
       color: white;
       text-align: center;
+      @media screen and (max-width: 768px) {
+        overflow-y: hidden;
+      }
       @media screen and (max-width: 767px) {
         font-size: 30px;
       }
@@ -2113,6 +2268,9 @@ article {
         font-size: 40px;
         line-height: 48px;
         color: white;
+        @media screen and (max-width: 768px) {
+          overflow-y: hidden;
+        }
         @media screen and (max-width: 767px) {
           font-size: 30px;
         }
@@ -2616,6 +2774,12 @@ footer {
   &:hover {
     background-color: #99e39e;
     color: #000000;
+  }
+  @media screen and (max-width: 1024px) {
+    width: 100%;
+  }
+  @media screen and (max-width: 768px) {
+    width: 95%;
   }
 }
 .mh4 {
